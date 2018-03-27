@@ -9,14 +9,15 @@ Based on the brilliant [jlesage/docker-baseimage-gui](https://github.com/jlesage
 ---
 #### 0.0.1
 
-- 2018-03-26 :: Initial release
+- 2018-03-27 :: Initial release
 
 ---
 #### Example Run Command
 
 ```
 docker run -it --rm \
-  -p 5820:5800 \
+  -p 5800:5800 \
+  -p 5900:5900 \
   -e KEEP_APP_RUNNING=1 \
   -e DISPLAY_WIDTH=1280 \
   -e DISPLAY_HEIGHT=768 \
